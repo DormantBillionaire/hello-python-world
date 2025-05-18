@@ -12,17 +12,20 @@ This is also for if I forget how to execute any step, and don't want to accident
 ## Installing & Configuring Git on MacOS
 
 Luckily I traversed down this road before so, I had already possesed a verison of git, here is the command I used to check for the installation 
-
-> 'git --version'
-
+```
+git --version
+```
 
 # Setting an "identity" 
 1. The sole purpose of this is to link your future commits to you 
-      
-> 'git config --global user.name "Your name"' 
 
-> 'git config --global user.email "youremail@whatevertf.com'
+```   
+git config --global user.name "Your name"
+```
 
+```
+git config --global user.email "youremail@whatevertf.com"
+```
 
 ## Tips & Best Practices 
 For the email section, I recommend inserting the same email that is used for your GitHub account, the circle of the "commit life" is easier this way.
@@ -33,28 +36,37 @@ Think of this as when you send texts, they are linked to you through your email,
 ## Set up SSH Authentication 
 
 1. Generating a new key 
-      
-> 'ssh-keygen -t ed25519 -C "yourdesires@idk.com" 
+
+```      
+ssh-keygen -t ed25519 -C "yourdesires@idk.com" 
+```
 
 2. Start the agent & add the key 
 
-> 'eval "$(ssh-agent -s)"'
-      
-> 'ssh-add --apple-use-keychain ~/.ssh/id_ed25519'
+```
+eval "$(ssh-agent -s)"
+```
 
+```
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+```
 
  **At this step, you may be asked to set a "passphrase".. K.I.S.S (Keep It Simple Stupid). This phrase will become your new bff, choose wisely.**
 
 
 3. Copy the public key to your clipboard 
 
-> 'pbcopy < ~/.ssh/id_ed25519.pub'
+```
+pbcopy < ~/.ssh/id_ed25519.pub
+```
 
 4. Add it to GitHub --> Setting --> SSH and GPG Keys --> New SSH Key (Authentication) --> Title (Your Devices Name)
 
 5. Test Connection In Termainal 
 
-> 'ssh -T git@github.com'
+```
+ssh -T git@github.com
+```
 
 # Create a GitHub Repo (Version 01: Repository created on GitHub Website )
 
@@ -62,23 +74,27 @@ Think of this as when you send texts, they are linked to you through your email,
 
 2. Settings To Choose:
       
-      Small written description
+      **Small written description**
 
-      Public (Open to the world) or Private (Your little secret)
+      **Public (Open to the world) or Private (Your little secret)**
 
-      Check "Add README File" box 
+      **Check "Add README File" box**
 
-      Add .gitignore (Select programming language)
+      **Add .gitignore (Select programming language)**
 
-      Choose a license (I chose MIT, it places few restrictions on reuse)
+      **Choose a license (I chose MIT, it places few restrictions on reuse)**
 
 # Clone a repository locally 
 1. This can be executed in your MAC OS terminal or VS Code
 
 
-> 'git clone git@github:your-username/your-project-name.git'
+```
+git clone git@github:your-username/your-project-name.git
+```
       
-> 'cd your-project-name'
+```
+cd your-project-name
+```
 
 You can retrieve the information that follows "git@github:" from doing the following: 
       
@@ -90,7 +106,10 @@ You can retrieve the information that follows "git@github:" from doing the follo
 3. Get to coding, this is YOUR time to shine
 
 # Run The Program In VS Code's Terminal
-> 'python3 my_or_your_python_file.py'
+
+```
+python3 my_or_your_python_file.py
+```
 
 # Version Control: Stage --> Commit --> Push
 
@@ -98,15 +117,21 @@ You can retrieve the information that follows "git@github:" from doing the follo
 
 1. Stage Your Edits (This is specifically for new files)
       
-> ' git add .'
+```
+ git add .
+```
 
 2. Commit With a Message (Similar to a caption)
 
-> 'git commit -m "Message or caption/ description goes here" 
+```
+git commit -m "Message or caption/ description goes here
+``` 
 
 3. Push to GitHub & Feel Proud
 
-> ' git push'
+```
+ git push
+ ```
 
 
 # Synopsis / Summary 
