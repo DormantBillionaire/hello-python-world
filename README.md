@@ -1,6 +1,6 @@
 # Baby's First Python Code 
 
-This project is a basic python scripts demonstrating that I have a syntax brain...
+This project is a basic python script demonstrating that I have a syntax brain...
 
 # Purpose 
 Honestly, I was exhausted from YouTube programming tutorials and challenged myself to actually commit, pun-intended (more of that in a bit). So, here are some questions i asked, that may prove to be beneficial in your journey to "commit".  
