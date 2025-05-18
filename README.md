@@ -5,13 +5,13 @@ Set of basic python scripts demonstrating that I have a syntax brain...
 ## Purpose 
 Honestly, I was exhausted from YouTube programming tutorials and challenged myself to actually commit, pun-intended (more of that in a bit). So, here are some questions i asked, that may prove to be beneficial in your journey to "commit".  
 
-      This is also for if I forget how to execute any step, and don't want to accidentally hack into NASA, or your local BurgerKing. 
+This is also for if I forget how to execute any step, and don't want to accidentally hack into NASA, or your local BurgerKing. 
 
 ## What was the process like? 
 1. Installing & Configuring Git on MacOS
       1. Luckily I traversed down this road before so, I had already possesed a verison of git, here is the command I used to check for the installation 
 
-      'git --version' 
+      > 'git --version' 
 
 2. ## Setting an "identity" 
       1. The sole purpose of this is to link your future commits to you 
@@ -20,9 +20,9 @@ Honestly, I was exhausted from YouTube programming tutorials and challenged myse
       > 'git config --global user.email "youremail@whatevertf.com'
 
       ### Tips & Best Practices 
-            For the email section, I recommend inserting the same email that is used for your GitHub account, the circle of the "commit life" is easier this way.
+      For the email section, I recommend inserting the same email that is used for your GitHub account, the circle of the "commit life" is easier this way.
       
-            Think of this as when you send texts, they are linked to you through your email, or AppleID, ame thing applies here
+      Think of this as when you send texts, they are linked to you through your email, or AppleID, ame thing applies here
 
       
 3. ## Set up SSH Authentication 
@@ -62,6 +62,7 @@ Honestly, I was exhausted from YouTube programming tutorials and challenged myse
 5. ## Clone a repository locally 
       1. This can be executed in your MAC OS terminal or VS Code
 
+
       > 'git clone git@github:your-username/your-project-name.git'
       > 'cd your-project-name'
 
@@ -77,16 +78,19 @@ Honestly, I was exhausted from YouTube programming tutorials and challenged myse
       > ' python3 my_or_your_python_file.py'
 
 8. ## Version Control: Stage --> Commit --> Push
-      > Biggest thing I've learned is that you always have to add, then commit, then push. It's just the way the programming world operates. 
+
+Biggest thing I've learned is that you always have to add, then commit, then push. It's just the way the programming world operates. 
 
       1. Stage Your Edits (This is specifically for new files)
-      > 'git add .'
+            > 'git add .'
 
       2. Commit With a Message (Similar to a caption)
-      > 'git commit -m "Message or caption/ description goes here" 
+
+            > 'git commit -m "Message or caption/ description goes here" 
 
       3. Push to GitHub & Feel Proud
-      > ' git push'
+
+            > ' git push'
 
 9. ## Synopsis / Summary 
       1. **Modify** code or documents in VS Code
@@ -96,7 +100,7 @@ Honestly, I was exhausted from YouTube programming tutorials and challenged myse
       5. **Verify** on GitHub.com
       6. **Rinse & Repeat**
 
-> Final Thoughts - Future README's will NEVER get this long, but somedays I have the memory of a deflated basketball, so this will come in handy. 
+Final Thoughts - Future README's will NEVER get this long, but somedays I have the memory of a deflated basketball, so this will come in handy. 
 
 
 
