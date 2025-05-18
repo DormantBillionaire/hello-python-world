@@ -19,8 +19,9 @@ Luckily I traversed down this road before so, I had already possesed a verison o
 # Setting an "identity" 
 1. The sole purpose of this is to link your future commits to you 
       
-      > 'git config --global user.name "Your name"' 
-      > 'git config --global user.email "youremail@whatevertf.com'
+> 'git config --global user.name "Your name"' 
+
+> 'git config --global user.email "youremail@whatevertf.com'
 
 
 ## Tips & Best Practices 
@@ -33,25 +34,27 @@ Think of this as when you send texts, they are linked to you through your email,
 
 1. Generating a new key 
       
-      > 'ssh-keygen -t ed25519 -C "yourdesires@idk.com" 
+> 'ssh-keygen -t ed25519 -C "yourdesires@idk.com" 
 
 2. Start the agent & add the key 
 
-      > 'eval "$(ssh-agent -s)"'
-      > 'ssh-add --apple-use-keychain ~/.ssh/id_ed25519'
+> 'eval "$(ssh-agent -s)"'
+      
+> 'ssh-add --apple-use-keychain ~/.ssh/id_ed25519'
+
 
  **At this step, you may be asked to set a "passphrase".. K.I.S.S (Keep It Simple Stupid). This phrase will become your new bff, choose wisely.**
 
 
 3. Copy the public key to your clipboard 
 
-      > 'pbcopy < ~/.ssh/id_ed25519.pub'
+> 'pbcopy < ~/.ssh/id_ed25519.pub'
 
 4. Add it to GitHub --> Setting --> SSH and GPG Keys --> New SSH Key (Authentication) --> Title (Your Devices Name)
 
 5. Test Connection In Termainal 
 
-      > 'ssh -T git@github.com'
+> 'ssh -T git@github.com'
 
 # Create a GitHub Repo (Version 01: Repository created on GitHub Website )
 
@@ -73,8 +76,9 @@ Think of this as when you send texts, they are linked to you through your email,
 1. This can be executed in your MAC OS terminal or VS Code
 
 
-      > 'git clone git@github:your-username/your-project-name.git'
-      > 'cd your-project-name'
+> 'git clone git@github:your-username/your-project-name.git'
+      
+> 'cd your-project-name'
 
 You can retrieve the information that follows "git@github:" from doing the following: 
       
@@ -93,15 +97,16 @@ You can retrieve the information that follows "git@github:" from doing the follo
 **Biggest thing I've learned is that you always have to add, then commit, then push. It's just the way the programming world operates.**
 
 1. Stage Your Edits (This is specifically for new files)
-      > ' git add .'
+      
+> ' git add .'
 
 2. Commit With a Message (Similar to a caption)
 
-      > 'git commit -m "Message or caption/ description goes here" 
+> 'git commit -m "Message or caption/ description goes here" 
 
 3. Push to GitHub & Feel Proud
 
-      > ' git push'
+> ' git push'
 
 
 # Synopsis / Summary 
