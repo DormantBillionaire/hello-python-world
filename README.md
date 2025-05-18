@@ -12,7 +12,7 @@ This is also for if I forget how to execute any step, and don't want to accident
 
 1. Luckily I traversed down this road before so, I had already possesed a verison of git, here is the command I used to check for the installation 
 
-      > 'git --version' 
+      'git --version' 
 
 2. # Setting an "identity" 
 1. The sole purpose of this is to link your future commits to you 
